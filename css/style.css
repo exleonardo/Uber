@@ -33,5 +33,49 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .subheader .subheader_logo {
+  display: block;
   max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheadear_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.subheader .subheader_call {
+  margin-top: 19px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  text-align: right;
+}
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration: none;
+  line-height: 12px;
+}
+.subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 19px;
+  border-radius: 4px;
 }
