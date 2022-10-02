@@ -7,6 +7,9 @@
 html {
   box-sizing: inherit;
 }
+header {
+  position: relative;
+}
 nav {
   height: 50px;
   background-color: #212121;
@@ -29,9 +32,103 @@ nav {
   padding-right: 28px;
 }
 .subheader {
+  width: 100%;
+  position: absolute;
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .subheader .subheader_logo {
+  display: block;
   max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheadear_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.subheader .subheader_call {
+  margin-top: 19px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  text-align: right;
+}
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration: none;
+  line-height: 12px;
+}
+.subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 19px;
+  border-radius: 4px;
+}
+
+.promo {
+  min-height: 800px;
+  background: url(/img/background_promo.jpg) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+.promo .promo_subheader {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+.promo .promo_descr {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
