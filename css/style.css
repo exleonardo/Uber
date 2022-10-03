@@ -11,6 +11,9 @@ header {
   position: relative;
 }
 nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   height: 50px;
   background-color: #212121;
 }
@@ -34,6 +37,7 @@ nav {
 .subheader {
   width: 100%;
   position: absolute;
+  margin-top: 50px;
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -131,4 +135,56 @@ nav {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
+}
+.job {
+  padding: 120px 0 123px 0;
+}
+.job .job_row {
+  margin: 40px 0 35px 0;
+}
+.job .job_icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 0 18px auto;
+
+  background-color: #1eacc7;
+  width: 113px;
+  height: 113px;
+  border-radius: 100%;
+  padding: 22px 14px;
+}
+.job .job_text {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+}
+.job .job_descr {
+  color: #1eacc7;
+  vertical-align: center;
+}
+.job .job_start {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #222222;
+}
+.job .job_advantage {
+  width: 115px;
+  height: 27px;
+  background-color: #000000;
+
+  padding: 0 auto;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin: 0 auto;
+  margin-bottom: 38px;
 }
