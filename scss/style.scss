@@ -183,6 +183,9 @@ nav {
     text-align: center;
     text-transform: uppercase;
     color: #222222;
+    &-1 {
+      color: #fff;
+    }
   }
 
   &_advantage {
@@ -211,6 +214,9 @@ nav {
   min-height: 864px;
   padding: 48px 0 79px 0;
   background: url(../img/mobile_bg.png) center (center/ cover) no-repeat;
+  .row {
+    margin-top: 32px;
+  }
   .subtitle {
     color: #222222;
     font-size: 17px;
@@ -218,10 +224,14 @@ nav {
     text-align: center;
     margin-top: 19px;
   }
+
   &_item {
+    position: relative;
     height: 280px;
     width: 320px;
     margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px;
     &_1 {
       background: url(../img/mobile_1.jpg) center (center/ cover) no-repeat;
     }
@@ -240,5 +250,72 @@ nav {
     &_6 {
       background: url(../img/mobile_6.jpg) center (center/ cover) no-repeat;
     }
+    &_subtitle {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &_plus {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      bottom: 35px;
+      background-color: #000000;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0 auto;
+      border-radius: 100%;
+      cursor: pointer;
+      padding: 6px;
+    }
   }
+}
+.car {
+  position: relative;
+  min-height: 500px;
+  background-color: #070716;
+  padding-top: 57px;
+  &_logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+  }
+}
+.car .subtitle-1 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+}
+.car .job_advantage-1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+.car_image {
+  position: relative;
+  background: url(../img/background_car.jpg) center (center/ cover) no-repeat;
+}
+.car_image .car_text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 213px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #222222;
+}
+.car_images {
+  display: block;
+  transform: translateX(50%);
+
+  position: absolute;
+  top: -134px;
+  transform: translateX(50%);
+  padding-bottom: 138px;
 }
