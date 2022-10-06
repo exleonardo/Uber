@@ -36,7 +36,7 @@ nav {
   margin: 0;
   list-style-type: none;
 
-  .menu_link {
+  &_link {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
@@ -212,7 +212,6 @@ nav {
     padding: 5px;
     width: 110px;
     margin: 0 auto;
-
     margin-bottom: 38px;
   }
 
@@ -282,6 +281,31 @@ nav {
       border-radius: 100%;
       cursor: pointer;
       padding: 6px;
+      &::before {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: $main-color;
+        transition: all 0.3s;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        height: 14px;
+        width: 2px;
+        background-color: $main-color;
+        transition: all 0.3s;
+      }
+      &:hover {
+        &::after,
+        &::before {
+          background-color: $second-color;
+        }
+      }
     }
   }
 }
@@ -344,4 +368,7 @@ nav {
     text-align: center;
     transform: translateY(-134px);
   }
+}
+.require {
+  padding: 68px 0 84px 0;
 }
