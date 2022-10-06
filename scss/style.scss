@@ -1,3 +1,11 @@
+$main-color: #1eacc7;
+$second-color: #ff5656;
+@mixin btn_hover {
+  &:hover {
+    background-image: none;
+    background-color: $main-color;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -45,13 +53,13 @@ nav {
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
 
-  .subheader_logo {
+  &_logo {
     display: block;
     max-width: 100%;
     margin-top: 16px;
   }
 
-  .subheadear_official {
+  &_official {
     margin-top: 6px;
     opacity: 0.5;
     color: #fff;
@@ -59,7 +67,7 @@ nav {
     font-weight: 400;
   }
 
-  .subheader_call {
+  &_call {
     margin-top: 19px;
     font-style: normal;
     font-weight: 300;
@@ -69,7 +77,7 @@ nav {
     text-align: right;
   }
 
-  .subheader_phone {
+  &_phone {
     display: block;
     margin-top: 8px;
     color: #fff;
@@ -81,7 +89,7 @@ nav {
     line-height: 12px;
   }
 
-  .subheader_btn {
+  &_btn {
     width: 172px;
     height: 46px;
     border: none;
@@ -93,6 +101,7 @@ nav {
     text-transform: uppercase;
     margin-top: 19px;
     border-radius: 4px;
+    @include btn_hover;
   }
 }
 
@@ -101,7 +110,7 @@ nav {
   background: url(/img/background_promo.jpg) center (center / cover) no-repeat;
   padding: 150px 0 135px 0;
 
-  .promo_header {
+  &_header {
     color: #fff;
     font-size: 60px;
     font-weight: 700;
@@ -111,7 +120,7 @@ nav {
     text-align: center;
   }
 
-  .promo_subheader {
+  &_subheader {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
@@ -122,7 +131,7 @@ nav {
     text-align: center;
   }
 
-  .promo_descr {
+  &_descr {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
@@ -131,7 +140,7 @@ nav {
     margin-top: 23px;
   }
 
-  .promo_btn {
+  &_btn {
     display: block;
     margin: 118px auto 0 auto;
     width: 259px;
@@ -144,6 +153,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
+    @include btn_hover;
   }
 }
 
