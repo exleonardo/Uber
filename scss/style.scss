@@ -313,5 +313,25 @@ nav {
   }
   &_logo {
     margin-top: 56px;
+    img {
+      width: 100%;
+    }
+  }
+}
+.car {
+  background: url(../img/background_car.jpg) center (center/ cover) no-repeat;
+
+  &_logo img {
+    width: 100%;
+    transform: translateY(-134px);
+  }
+  &_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #222222;
+    text-align: center;
+    transform: translateY(-134px);
   }
 }
