@@ -478,15 +478,23 @@ nav {
     text-align: center;
     margin-top: 2px;
   }
-  &_link a {
-    display: block;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #1fbad6;
-    text-decoration: none;
+  &_link {
+    display: flex;
+    justify-content: center;
     margin-top: 400px;
+
+    & a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #1fbad6;
+      text-decoration: none;
+
+      &:hover {
+        color: #1ca8c3;
+      }
+    }
   }
 }
