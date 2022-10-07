@@ -479,11 +479,11 @@ nav {
     margin-top: 2px;
   }
   &_link {
-    display: flex;
-    justify-content: center;
     margin-top: 400px;
 
     & a {
+      display: block;
+      margin: 0 auto;
       font-style: normal;
       font-weight: 400;
       font-size: 15px;
@@ -495,6 +495,22 @@ nav {
       &:hover {
         color: #1ca8c3;
       }
+    }
+  }
+}
+.footer {
+  padding: 14px 46px 65px 23px;
+  &_top {
+    &::before {
+      content: "";
+
+      display: block;
+      width: 350px;
+      height: 7px;
+      background-color: #1fbad6;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
     }
   }
 }
