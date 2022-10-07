@@ -489,7 +489,7 @@ nav {
       font-size: 15px;
       text-align: center;
       text-transform: uppercase;
-      color: #1fbad6;
+      color: #4ce2ff;
       text-decoration: none;
 
       &:hover {
@@ -499,6 +499,7 @@ nav {
   }
 }
 .footer {
+  position: relative;
   padding: 14px 46px 65px 23px;
   &_top {
     &::before {
@@ -511,6 +512,55 @@ nav {
       margin-left: auto;
       margin-right: auto;
       border-radius: 5px;
+    }
+  }
+  &_link a {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #070716;
+    font-weight: 400;
+    text-transform: uppercase;
+    &:last-child {
+      margin-left: 50px;
+    }
+    &:not(:last-child) {
+      margin-left: 50px;
+    }
+  }
+  &_link {
+    padding: 0 391px 0 385px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    &_descr {
+      display: flex;
+      justify-content: center;
+      margin-top: 12px;
+      & a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #999999;
+        font-weight: 400;
+        text-transform: uppercase;
+        &:last-child {
+          margin-left: 21px;
+        }
+        &:not(:last-child) {
+          margin-left: 21px;
+        }
+      }
+    }
+  }
+  &_download {
+    width: 320px;
+    height: 27px;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 72%;
+    & img {
+      width: 150px;
     }
   }
 }
