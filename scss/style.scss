@@ -528,30 +528,26 @@ nav {
     &-1 {
       width: 37px;
       height: 37px;
-      background-color: #000000;
-      border-radius: 100%;
       margin-right: 10px;
       margin-left: 20px;
+      & img {
+        width: 100%;
+        color: #fff;
+      }
     }
     &-2 {
       width: 37px;
       height: 37px;
-      background-color: #000000;
-      border-radius: 100%;
       margin-right: 10px;
     }
     &-3 {
       width: 37px;
       height: 37px;
-      background-color: #000000;
-      border-radius: 100%;
       margin-right: 10px;
     }
     &-4 {
       width: 37px;
       height: 37px;
-      background-color: #000000;
-      border-radius: 100%;
       margin-right: 10px;
     }
   }
