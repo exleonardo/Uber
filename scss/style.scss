@@ -159,25 +159,37 @@ nav {
 
 .job {
   padding: 120px 0 123px 0;
-
+  &_container {
+    display: flex;
+    justify-content: center;
+  }
+  &_img {
+    width: 113px;
+    height: 113px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 26px;
+  }
   &_row {
     margin: 40px 0 35px 0;
   }
-
+  &_width {
+    width: 343px;
+  }
   &_icon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 10px 0 18px auto;
     background-color: #1eacc7;
-    width: 113px;
-    height: 113px;
     border-radius: 100%;
     padding: 22px 14px;
+    margin: 0 auto;
   }
 
   &_text {
+    display: flex;
     margin-bottom: 35px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
   }
 
   &_descr {
