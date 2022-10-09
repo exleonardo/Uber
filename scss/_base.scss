@@ -28,6 +28,11 @@ nav {
     font-weight: 300;
     border-right: 2px dotted black;
     padding-right: 28px;
+    &:hover {
+      text-decoration: none;
+
+      color: $main-color;
+    }
   }
 }
 
