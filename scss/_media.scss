@@ -1,11 +1,87 @@
 @media only screen and (max-width: 1200px) {
   .menu {
-    &_item {
+    .menu_item {
       padding-right: 20px;
 
       .menu_link {
         font-size: 11px;
       }
     }
+  }
+  .promo {
+    .promo_header {
+      font-size: 50px;
+    }
+  }
+  .footer_container .footer_flex {
+    width: 43%;
+  }
+  .footer_download {
+    width: 37%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .menu {
+    .menu_item {
+      padding-right: 15px;
+    }
+  }
+  header .subheader_official {
+    font-size: 12px;
+  }
+  .menu .menu_item .menu_link {
+    font-size: 8px;
+  }
+  .job_img .job_icon {
+    width: 110%;
+    height: 75%;
+  }
+  .footer_download img {
+    width: 100px;
+  }
+  .footer_download {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer_container .footer_flex {
+    width: 50%;
+  }
+  .subheader .subheader_logo img {
+    width: 100%;
+  }
+  .subheader .subheader_phone {
+    font-size: 18px;
+  }
+  .subheader .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  .promo {
+    .promo_header {
+      font-size: 30px;
+    }
+    .promo_subheader {
+      font-size: 20px;
+    }
+  }
+  .job {
+    .job_container {
+      flex-direction: column;
+    }
+    .job_width {
+      width: 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_flex .footer_link_descr a {
+    text-align: center;
+  }
+  .footer_container .footer_icons {
+    flex-direction: column;
   }
 }
