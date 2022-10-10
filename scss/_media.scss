@@ -23,7 +23,11 @@
     flex-direction: column;
   }
   .subheader .subheader_call {
-    margin-top: -45px;
+    margin-top: -50px;
+    text-align: center;
+  }
+  .subheader .subheader_phone {
+    text-align: center;
   }
 }
 
@@ -32,6 +36,9 @@
     .menu_item {
       padding-right: 10px;
     }
+  }
+  .subheader .subheader_call {
+    margin-top: -45px;
   }
   .mobile .mobile_item {
     width: 220px;
