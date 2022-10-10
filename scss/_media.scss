@@ -2,11 +2,13 @@
   .menu {
     .menu_item {
       padding-right: 20px;
-
       .menu_link {
         font-size: 11px;
       }
     }
+  }
+  .mobile .mobile_item {
+    width: 300px;
   }
   .promo {
     .promo_header {
@@ -31,15 +33,19 @@
       padding-right: 10px;
     }
   }
+  .mobile .mobile_item {
+    width: 220px;
+  }
   header .subheader_official {
     font-size: 12px;
   }
   .menu .menu_item .menu_link {
     font-size: 10px;
   }
+
   .job_img .job_icon {
-    width: 110%;
-    height: 75%;
+    width: 100%;
+    height: 95%;
   }
   .footer_download img {
     width: 100px;
@@ -76,6 +82,10 @@
     }
     .job_width {
       width: 300px;
+      margin: 0 auto;
+    }
+    .job_img {
+      margin: 0 auto;
     }
   }
 }
@@ -84,9 +94,13 @@
   .footer_flex .footer_link_descr a {
     text-align: center;
   }
+  .mobile .mobile_item {
+    width: 350px;
+  }
   .footer_container .footer_icons {
     flex-direction: column;
   }
+
   .menu {
     position: fixed;
     flex-direction: column;
@@ -164,5 +178,13 @@
     margin: 0 auto;
     margin-top: 15px;
     display: block;
+  }
+  .promo {
+    .promo_header {
+      line-height: 45px;
+    }
+    .promo_subheader {
+      font-size: 20px;
+    }
   }
 }
