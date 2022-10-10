@@ -20,19 +20,22 @@
     width: 37%;
     flex-direction: column;
   }
+  .subheader .subheader_call {
+    margin-top: -45px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .menu {
     .menu_item {
-      padding-right: 15px;
+      padding-right: 10px;
     }
   }
   header .subheader_official {
     font-size: 12px;
   }
   .menu .menu_item .menu_link {
-    font-size: 8px;
+    font-size: 10px;
   }
   .job_img .job_icon {
     width: 110%;
@@ -139,5 +142,27 @@
   }
   .subheader .subheader_call {
     margin-top: -45px;
+  }
+  .subheader .xs-hidden {
+    display: none;
+  }
+  .subheader .xs-visible {
+    display: block;
+  }
+  .subheader .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .subheader .subheader_btn {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block;
   }
 }
