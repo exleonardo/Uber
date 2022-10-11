@@ -9,7 +9,7 @@ header {
 nav {
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 5;
   height: 50px;
   background-color: #212121;
 }
@@ -20,6 +20,7 @@ nav {
   padding: 13px 70px;
   margin: 0;
   list-style-type: none;
+  text-align: center;
 
   &_link {
     color: #fff;
@@ -619,4 +620,7 @@ nav {
       width: 150px;
     }
   }
+}
+.xs-visible {
+  display: none;
 }
