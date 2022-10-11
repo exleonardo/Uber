@@ -29,6 +29,12 @@
   .subheader .subheader_phone {
     text-align: center;
   }
+  .car .car_logo img {
+    transform: translateY(-80px);
+  }
+  .car .car_logo .car_text {
+    transform: translateY(-60px);
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -94,6 +100,12 @@
     .job_img {
       margin: 0 auto;
     }
+  }
+  .car .car_logo img {
+    transform: translateY(-35px);
+  }
+  .car .car_logo .car_text {
+    transform: translateY(-60px);
   }
 }
 
@@ -180,7 +192,7 @@
     text-align: center;
   }
   .subheader .subheader_btn {
-    width: 200px;
+    width: 135px;
     height: 40px;
     margin: 0 auto;
     margin-top: 15px;
@@ -194,7 +206,14 @@
       font-size: 20px;
     }
   }
+  .car .car_logo img {
+    transform: translateY(-80px);
+  }
+  .car .car_logo .car_text {
+    transform: translateY(-60px);
+  }
 }
+
 @media only screen and (max-width: 575px) {
   .subheader {
     height: 60px;
@@ -217,9 +236,34 @@
   }
   .promo {
     min-height: 400px;
-    padding: 53px 0 35px;
+    padding: 93px 0 35px 0;
   }
   .promo .promo_descr {
     display: none;
+  }
+  .promo .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  .promo .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  .promo .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  .mobile .mobile_item {
+    width: 290px;
+  }
+  .car .car_logo img {
+    transform: translateY(-35px);
+  }
+  .car .car_logo .car_text {
+    transform: translateY(-60px);
   }
 }
